@@ -29,6 +29,8 @@ for x,y,z in xyz:
     uf.union(x,y)
 
 # print(uf.parent)
+for i in range(n):
+    uf.find(i)
 print(len(set(uf.parent)))
 
 # n,m=map(int,input().split())
